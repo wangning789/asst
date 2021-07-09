@@ -1,0 +1,15 @@
+.menu {
+  background: #364352 !important;
+  // background: $colorTransparent !important;
+  border: none !important;
+
+  :focus {
+    outline: none;
+  }
+
+  :global(.el-menu) {
+    background: #364352 !important;
+    // background: $colorTransparent !important;
+    border: none !important;
+  }
+}

@@ -1,0 +1,19 @@
+/*
+ * @Description: 全局z-index划分
+ * @Author: 毛瑞
+ * @Date: 2019-07-06 09:07:27
+ */
+
+$zBackground: -2; // 背景
+$zBackAnimate: -1; // 背景动画
+$zero: 0;
+$zPanel: 1; // 浮动面板
+$zComp: 2; // 浮动组件
+$zMenu: 3; // 浮动菜单
+$zFixed: 4; // 固定部件（页头页尾等）
+$zInfo: 8; // 信息窗口，如弹窗
+$zDialog: 6; // 对话框，如提示确认等
+$zMessage: 7; // 消息提示
+$zDrawer: 5; //抽屉
+$zDown: 9; //下拉框
+$zTop: 10; // 最上层

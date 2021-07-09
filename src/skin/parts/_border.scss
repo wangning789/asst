@@ -1,0 +1,20 @@
+// 边框宽度
+$borderSolidWidth: 1px;
+$borderDashedWidth: 2px;
+$borderBase: $borderSolidWidth solid $colorBorderLv1;
+$borderDashed: $borderDashedWidth dashed $colorBorderLv1;
+$borderTable: $borderSolidWidth solid $colorBorderLv5;
+// 圆角
+$borderRadius0: 0;
+$borderRadiusBig: 15px;
+$borderRadiusBase: 4px;
+$borderRadiusSmall: 2px;
+$borderRadiusCircle: 100%;
+// 阴影
+$shadowBaseColor: rgba(0, 0, 0, 0.12);
+$shadowLightColor: rgba(0, 0, 0, 0.1);
+$shadowPrefixBase: 0 2px 4px $shadowBaseColor, 0 0 6px;
+$shadowPrefixLight: 0 2px 12px 0;
+$shadowBase: $shadowPrefixBase rgba(0, 0, 0, 0.04);
+$shadowDark: $shadowPrefixBase $shadowBaseColor;
+$shadowLight: $shadowPrefixLight $shadowLightColor;

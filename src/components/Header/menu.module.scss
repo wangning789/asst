@@ -1,0 +1,23 @@
+.menu {
+  height: $heightHeader - 2 !important;
+  background: $colorTransparent !important;
+
+  > :global(.el-menu-item),
+  > :global(.el-submenu > .el-submenu__title) {
+    height: $heightHeader - 2 !important;
+    padding: 0 10px;
+    color: $colorTextMain;
+    font-size: $larger;
+    line-height: $heightHeader - 2 !important;
+    background: $colorTransparent !important;
+
+    > i,
+    > svg,
+    > img {
+      width: $large;
+      height: $large;
+      font-size: $large;
+      vertical-align: middle;
+    }
+  }
+}

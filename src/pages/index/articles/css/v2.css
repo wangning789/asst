@@ -1,0 +1,37 @@
+.blkContainerPblk {
+  width: 1040px;
+  height: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border-color: #bbb;
+  border-width: 0 1px 1px;
+  border-image: none;
+}
+
+.blkContainerSblk h1 {
+  overflow: hidden;
+  color: #000;
+  font-weight: normal;
+  font-size: 25px;
+  font-family: '微软雅黑', '黑体';
+  line-height: 35px;
+  text-align: center;
+}
+
+.artInfo {
+  position: relative;
+  padding: 10px 0;
+  color: #858585;
+  line-height: 22px;
+  text-align: center;
+  border-bottom: 1px dotted #ccc;
+}
+
+.blkContainerSblkCon p {
+  margin: 5px 0;
+  text-indent: 2em;
+}
+
+.blkContainerPblk a {
+  color: #2b7de2;
+}

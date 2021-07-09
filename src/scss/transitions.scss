@@ -1,0 +1,71 @@
+/*
+ * @description: vue Transition 过渡动画
+ *  https://cn.vuejs.org/v2/guide/transitions.html
+ * @Author: 毛瑞
+ * @Date: 2019-01-11 10:37:44
+ */
+/// 淡入淡出 fade ///
+.fade-enter-active,
+.fade-leave-active {
+  transition: 0.2s;
+}
+
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+
+// 上浮淡入/下沉淡出 flip
+.flip-enter-active,
+.flip-leave-active {
+  transition: 0.3s;
+}
+
+.flip-enter,
+.flip-leave-to {
+  transform: translate3d(0, 30%, 0);
+  opacity: 0;
+}
+
+// 左侧滑入滑出
+.slip-enter-active,
+.slip-leave-active {
+  transition: 0.3s;
+}
+
+.slip-enter,
+.slip-leave-to {
+  transform: translate3d(-100%, 0, 0);
+  opacity: 0;
+}
+
+// 右侧滑入滑出
+.slide-enter-active,
+.slide-leave-active {
+  transition: 0.3s;
+}
+
+.slide-enter,
+.slide-leave-to {
+  transform: translate3d(100%, 0, 0);
+  opacity: 0;
+}
+
+// 展开折叠
+.fold-enter-active,
+.fold-leave-active {
+  transform-origin: 0 0;
+  transition: 0.3s;
+}
+
+.fold-enter,
+.fold-leave-to {
+  height: 0;
+  transform: rotate3d(1, 0, 0, -90deg);
+  opacity: 0;
+}
+
+// 去掉过渡动画
+.no-transit {
+  transition: none !important;
+}

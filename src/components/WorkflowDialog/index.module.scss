@@ -1,0 +1,15 @@
+.wrapper {
+  width: 90vw;
+  margin-top: 6.5vh !important;
+
+  :global(.el-dialog__body) {
+    padding: $gapNormal / 2 $gapNormal;
+  }
+}
+
+.loading {
+  position: absolute;
+  width: calc(100% - #{$gapNormal * 2});
+  height: calc(100% - #{$gapNormal + 56px});
+  background: rgba($colorBackGround, 0.6);
+}

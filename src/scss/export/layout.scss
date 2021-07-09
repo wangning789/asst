@@ -1,0 +1,10 @@
+// 布局尺寸
+:export {
+  gap: trimUnit($gapNormal);
+  head: trimUnit($heightHeader);
+  top: trimUnit($gapTop);
+  left: trimUnit($gapLeft);
+  right: trimUnit($gapRight);
+  bottom: trimUnit($gapBottom);
+  input: trimUnit($heightInput);
+}

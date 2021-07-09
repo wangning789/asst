@@ -1,0 +1,102 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "jsx": "preserve",
+    "help": true,
+    "outDir": "compile",
+    "target": "esnext",
+    "module": "esnext",
+    "pretty": true,
+    "strict": true,
+    "sourceMap": true,
+    "incremental": true,
+    "diagnostics": true,
+    "alwaysStrict": false,
+    "skipLibCheck": true,
+    "noEmitHelpers": true,
+    "importHelpers": true,
+    "esModuleInterop": true,
+    "tsBuildInfoFile": "compile/.buildInfo",
+    "moduleResolution": "node",
+    "noErrorTruncation": true,
+    "resolveJsonModule": true,
+    "allowUnusedLabels": true,
+    "strictBindCallApply": true,
+    "noImplicitUseStrict": true,
+    "skipDefaultLibCheck": true,
+    "allowUnreachableCode": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "types": [
+      "webpack-env",
+      "jest"
+    ],
+    "paths": {
+      "@/*": [
+        "src/*"
+      ],
+      "@com/*": [
+        "src/components/*"
+      ],
+      "@404/*": [
+        "src/pages/404/*"
+      ],
+      "@50x/*": [
+        "src/pages/50x/*"
+      ],
+      "@custom/*": [
+        "src/pages/custom/*"
+      ],
+      "@help/*": [
+        "src/pages/help/*"
+      ],
+      "@home/*": [
+        "src/pages/home/*"
+      ],
+      "@homeCom/*": [
+        "src/pages/home/components/*"
+      ],
+      "@index/*": [
+        "src/pages/index/*"
+      ],
+      "@indexCom/*": [
+        "src/pages/index/components/*"
+      ],
+      "@login/*": [
+        "src/pages/login/*"
+      ],
+      "@mall/*": [
+        "src/pages/mall/*"
+      ],
+      "@mallCom/*": [
+        "src/pages/mall/components/*"
+      ],
+      "@me/*": [
+        "src/pages/me/*"
+      ],
+      "@hRoute/*": [
+        "src/pages/home/route/*"
+      ],
+      "@assetsInfoCom/*": [
+        "src/pages/home/views/assets/assetsInfo/components/*"
+      ],
+    },
+    "lib": [
+      "esnext",
+      "dom",
+      "dom.iterable",
+      "scripthost"
+    ]
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "tests/**/*.ts",
+    "tests/**/*.tsx"
+  ],
+  "exclude": [
+    "**/node_modules/**",
+    "**/__tests__/**"
+  ]
+}

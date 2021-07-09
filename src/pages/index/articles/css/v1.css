@@ -1,0 +1,38 @@
+/* stylelint-disable */
+
+/* 内容 */
+#center {
+  margin: 0 auto;
+  width: 1040px;
+  padding: 40px 80px;
+  background-color: #fff;
+  text-align: left;
+  box-sizing: border-box;
+  transform: translateY(-110px);
+}
+#center .c_left { float: left; width: 640px; padding-bottom: 40px; overflow: hidden; text-align: left; }
+#center .c_right { float: right; width: 329px; text-align: left; }
+#center .main_tit { /* text-align:center; */margin-bottom: 20px; }
+#center .main_tit h1 { margin: 10px 80px; text-align: center; line-height: 1.5em;}
+#center .main_tit .info { height: 35px; font-size: 12px; line-height: 35px; border-bottom: 1px solid #eee; }
+#center .share { margin-bottom: 15px; line-height: 40px; border-bottom: 1px dashed #ccc; }
+#center .share .right { padding-right: 10px; color: #7f7f7f; }
+#content { overflow: hidden; font-size: 14px; line-height: 2em; }
+#content p { padding-bottom: 15px; font-family: '宋体'; white-space: pre-wrap; }
+
+#center .pinglun { margin: 15px 0; }
+
+/* 正文区 */
+#center #pubtime { float: left; padding-left: 100px; position: relative; left: 50%; }
+#center #source { float: left; padding-left: 35px; }
+#center #source a { color: #333; }
+#center #wyhs { float: left; padding-left: 10px; }
+#center .set_font { display: inline; float: right; margin-left: 10px; }
+#center .set_font a { display: inline; float: left; width: 24px; height: 24px; margin-right: 6px; }
+#center .set_font .font_small:hover { background-position: 0 -356px; }
+#center .set_font .font_small_dis { background-position: -26px -383px; cursor: default; }
+#center .set_font .font_small_dis:hover { background-position: -26px -383px; cursor: default; }
+#center .set_font .font_add { background-position: 0 -329px; }
+#center .set_font .font_add:hover { background-position: -26px -356px; }
+#center .set_font .font_add_dis { background-position: -26px -329px; }
+#center .set_font .font_add_dis:hover { background-position: -26px -329px; }

@@ -1,0 +1,17 @@
+.grid,
+.cell {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.grid {
+  position: relative;
+  width: 100%;
+  overflow: auto;
+}
+
+.cell {
+  position: absolute;
+  overflow: hidden;
+}

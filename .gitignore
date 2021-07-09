@@ -1,0 +1,38 @@
+# git忽略文件
+.DS_Store
+node_modules
+dist
+compile
+
+.yarn
+.yarnrc
+.pnp.js
+
+# 测试
+coverage
+tests/e2e/videos
+tests/e2e/screenshots
+
+# 本地环境变量
+.env.local
+.env.*.local
+
+# 日志文件(夹)
+.history
+*.log
+report.*.json
+
+# IDE
+# .vscode
+.idea
+target
+*.ilm
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 其他忽略文件(夹)
+~*
+*~

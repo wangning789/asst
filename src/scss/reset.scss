@@ -1,0 +1,95 @@
+/*
+ * @Description: 浏览器样式重置
+ * @Author: 毛瑞
+ * @Date: 2019-07-01 14:01:23
+ */
+
+@import './scrollBar'; // 滚动条样式
+body {
+  color: $colorTextCommon;
+  font-size: $medium;
+  font-family: 'Microsoft YaHei', '微软雅黑', 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB', Arial, sans-serif;
+  background: $colorBackGround;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// placeholder 样式
+// input,
+// textarea {
+//   -webkit-appearance: none;
+//   &::placeholder {
+//     color: $colorTextCommon;
+//   }
+//   // WebKit
+//   &::-webkit-input-placeholder {
+//     color: $colorTextCommon;
+//   }
+//   // Firefox 19+
+//   &::-moz-placeholder {
+//     color: $colorTextCommon;
+//   }
+//   // Firefox 4 - 18
+//   &:-moz-placeholder {
+//     color: $colorTextCommon;
+//   }
+//   // IE 10+
+//   &:-ms-input-placeholder {
+//     color: $colorTextCommon;
+//   }
+// }
+%commonRichText {
+  box-sizing: border-box;
+  padding: 5px 15px;
+  overflow-y: auto;
+  background-color: $colorBackGround;
+  border: 1px solid $colorBorderLv2;
+  border-radius: $borderRadiusBase;
+}
+
+.common_rich_text_des {
+
+  @extend %commonRichText;
+}
+
+.common_rich_text_des_disable {
+
+  @extend %commonRichText;
+
+  color: $colorTextHolder;
+}
+
+.common_h4_title {
+  display: inline-block;
+  margin: $gapNormal/2 0 $gapNormal 0;
+  font-size: $larger;
+}
+
+.common_table_opt_icon {
+  font-size: $large;
+  cursor: pointer;
+
+  &:hover {
+    color: $colorTheme;
+  }
+}
+
+.common_margin_right {
+  margin-right: $gapNormal / 2;
+}
+
+.common_area_title {
+  margin: 18px 0 0;
+  font-weight: bold;
+  font-size: 14px;
+
+  &::before {
+    display: inline-block;
+    width: 4px;
+    height: 14px;
+    margin-right: 8px;
+    margin-left: 16px;
+    background-color: #2c73ef;
+    content: '';
+  }
+}

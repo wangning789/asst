@@ -1,0 +1,47 @@
+{
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "editor.wordWrapColumn": 80,
+  "editor.fontLigatures": true,
+  "editor.wrappingIndent": "indent",
+  "editor.detectIndentation": false,
+  "editor.renderIndentGuides": true,
+  "editor.fontFamily": "'Fira Code Retina', 'Cascadia Code', Consolas, 'Courier New', monospace",
+  "diffEditor.ignoreTrimWhitespace": false,
+
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+
+  "files.trimTrailingWhitespace": true,
+
+  "typescript.tsdk": "./node_modules/typescript/lib",
+  /// 代码风格 ///
+  "vetur.completion.tagCasing": "initial",
+  "vetur.useWorkspaceDependencies": true,
+  // "vetur.experimental.templateInterpolationService": true, // 卡
+  "vetur.format.defaultFormatterOptions": {
+    "prettier": {
+      "semi": false, // 不要句尾分号
+      "singleQuote": true, // 使用单引号
+      "trailingComma": "es5", // 多行末尾保留逗号
+    }
+  },
+  "javascript.implicitProjectConfig.experimentalDecorators": true,
+
+  "eslint.format.enable": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+
+  // 格式化程序
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[vue]": {
+    "editor.defaultFormatter": "octref.vetur"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+}

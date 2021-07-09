@@ -1,0 +1,28 @@
+
+.table {
+  margin-bottom: $gapNormal;
+  color: $colorTextMain;
+
+  thead {
+    th {
+      height: 40px !important;
+      padding: 0;
+      color: $colorTextMain;
+      font-weight: 400;
+      background: $colorTableHead;
+    }
+  }
+
+  tbody {
+    td {
+      height: 40px !important;
+      padding: 0 !important;
+      border-bottom: $borderTable;
+    }
+  }
+
+  // 高亮选中行
+  :global(.current-row > td) {
+    // background: $colorTheme7 !important;
+  }
+}

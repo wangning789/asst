@@ -1,0 +1,25 @@
+/** 浅色皮肤
+ * @Description: 全局scss变量
+ *  【此文件中请勿出现具体样式，否则会打包到!所有!css chunk中】
+ *  【在此文件中导出的变量会混合到!所有!scss的导出中】
+ *  【请使用命名空间或规划好命名方式以避免变量名冲突】
+ * @Author: 毛瑞
+ * @Date: 2019-06-19 11:34:44
+ */
+/// 变量 (私有变量 _+camelCase)///
+@import '../parts/colors'; // 颜色 【colorCase】: colorRed
+@import '../parts/border'; // 边框 【(border|shadow)Case】: borderSolidWidth
+@import '../parts/fontSIzes'; // 字号 【cssCase】: xSmaller、xxxLarge
+@import '../parts/zIndexes'; // z-index层级划分 【zCase】: zMessage
+@import '../parts/size'; // 尺寸 【(height|width)Case】: heightHeader
+@import '../parts/scrollBar'; // 滚动条变量 【scrollBarCase】
+@import '../parts/element'; // 定制 element-ui 样式 【kebab-case】
+
+/* ---------------------- 我是一条分割线 (灬°ω°灬) ---------------------- */
+@import '../parts/extend'; // 扩展 @extend %{var};
+
+/* ---------------------- 我也是一条分割线 (*❦ω❦) ---------------------- */
+@import '../parts/mixin'; // 混入 @include name(args);
+
+/* ---------------------- 我还是一条分割线 (o°ω°o) ---------------------- */
+@import '../parts/function'; // 函数 name(args);

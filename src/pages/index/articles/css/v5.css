@@ -1,0 +1,16 @@
+.waring_con2 {
+  width: 1040px;
+  margin: 0 auto;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.artil_tit {
+  height: 40px;
+  margin: 0 36px;
+  padding-top: 20px;
+  color: #013698;
+  font-size: 16px;
+  line-height: 40px;
+  text-align: center;
+}

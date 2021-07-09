@@ -1,0 +1,23 @@
+/*
+ * @Description: 全局固定布局尺寸
+ * @Author: 毛瑞
+ * @Date: 2019-07-06 09:11:16
+ */
+/// 视口尺寸 ///
+$sm: 768px;
+$md: 992px;
+$lg: 1200px;
+$xl: 1920px;
+
+$gapNormal: 16px; // 通用间距
+$gapMedium: 24px; // 通用间距2
+$heightHeader: 50px; // header高度
+$widthSideBar: 200px; // sideBar宽度
+
+$gapLeft: $gapNormal; // 内容左边距
+$gapRight: $gapNormal; // 内容右边距
+$gapBottom: $gapNormal; // 内容下边距
+$gapTop: $heightHeader + $gapNormal; // 内容上边距
+$widthPage: $lg - $gapLeft - $gapRight - $gapNormal * 2; // 通用最小内容宽度
+
+$heightInput: 32px; // 输入框(medium尺寸)高度
